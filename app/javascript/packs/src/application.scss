@@ -1,0 +1,81 @@
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    background-color: #ecf0f1;
+}
+
+.navbar {
+    background-color: #001f3f;
+}
+
+#logo {
+    float: left;
+    font-size: 1.7em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+.my-btn {
+    font-size: 1.5em;
+    background-color: black;
+    margin-top: 50px;
+    border: none;
+}
+
+.my-panel {
+    background-color: rgba(231, 76, 60, 0.7);
+    padding: 10px
+}
+
+.my-jumbotron {
+    background-image: url('../../../assets/images/blog-image.jpg');
+    background-size: cover;
+    height: 450px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    font-size: 0.75em;
+    background-color: #001f3f;
+    color: white;
+    padding: 10px;
+    width: 100%
+}
+
+.container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.article-view {
+    background-color: #ddd;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 3%;
+}
+
+.article-title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.article-actions {
+    padding: 5px;
+    border-top: 1px solid #aaa;
+}
+
+.my-container {
+    // text-align: center;
+}
