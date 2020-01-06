@@ -11,10 +11,12 @@
                     <div class = "article-body">
                         <%=truncate(article.description, length: 100) %>
                     </div>
+                    <% if current_user && current_user.admin? %>
                     <div class = "article-actions">
                         <%= link_to "Edit this article", edit_article_path(article), class: "btn btn-primary mybtn-small" %>
                         <%= link_to "Delete this article", article_path(article), method: :delete, data: {confirm: "Delete the article?"}, class: "btn btn-danger mybtn-small" %>
                     </div>
+                    <% end %>
                 </div>
             </div>
         </div>
